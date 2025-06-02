@@ -49,4 +49,3 @@ print("Python is " + y)
 import random
 
 print(random.randrange(1, 10))
-print(random.randbytes(5))  # returns a random byte string of length 5

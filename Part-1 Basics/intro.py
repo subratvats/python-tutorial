@@ -22,4 +22,3 @@ written in
 more than just one line
 """
 
-"dsmkakdjfka"
