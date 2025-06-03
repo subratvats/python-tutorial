@@ -1,4 +1,23 @@
-# python-tutorial
+
+## Python Formatted String Notes
+
+- **Definition**: Formatted strings allow embedding expressions inside string literals.
+- **f-Strings (Python 3.6+)**:
+    ```python
+    name = "Alice"
+    age = 30
+    print(f"My name is {name} and I am {age} years old.")
+    ```
+- **Modifiers/Format Specifiers**:
+    - `{value:.2f}`: Format float with 2 decimal places.
+    - `{value:>10}`: Right-align in a field of width 10.
+    - `{value:<10}`: Left-align in a field of width 10.
+    - `{value:^10}`: Center-align in a field of width 10.
+    - `{value:,}`: Add thousands separator.
+    - `{value:%}`: Percentage format.
+- **Other Methods**: `str.format()` and `%` formatting (older styles).
+
+
 ## Python Dictionary Notes
 
 - **Definition**: A dictionary is an unordered collection of key-value pairs.
