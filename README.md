@@ -17,7 +17,40 @@
     - `{value:%}`: Percentage format.
 - **Other Methods**: `str.format()` and `%` formatting (older styles).
 
+## Python List Notes
 
+- **Definition**: A list is an ordered, mutable collection of items.
+- **Syntax**:
+    ```python
+    my_list = [1, 2, 3, 'a', 'b']
+    ```
+- **Accessing Elements**:
+    ```python
+    first = my_list[0]
+    last = my_list[-1]
+    ```
+- **Adding Items**:
+    - `append(x)`: Add to end.
+    - `insert(i, x)`: Insert at index.
+    - `extend(iterable)`: Add multiple items.
+- **Removing Items**:
+    - `remove(x)`: Remove first occurrence.
+    - `pop(i)`: Remove and return item at index.
+    - `clear()`: Remove all items.
+- **Common Methods**:
+    - `sort()`: Sort list in place.
+    - `reverse()`: Reverse list in place.
+    - `count(x)`: Count occurrences of x.
+    - `index(x)`: Find index of x.
+- **Iteration**:
+    ```python
+    for item in my_list:
+        print(item)
+    ```
+- **Key Features**:
+    - Supports mixed data types.
+    - Allows duplicates.
+    - Lists are mutable and dynamic.
 ## Python Dictionary Notes
 
 - **Definition**: A dictionary is an unordered collection of key-value pairs.
