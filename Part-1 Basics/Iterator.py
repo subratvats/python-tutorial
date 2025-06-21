@@ -5,6 +5,10 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 
+# Create an Iterator
+# To create an object/class as an iterator you have to implement the methods __iter__() and __next__() to your object.
+# The __iter__() method acts similar, you can do operations (initializing etc.), but must always return the iterator object itself.
+# The __next__() method also allows you to do operations, and must return the next item in the sequence.
 
 class MyNumbers:
   def __iter__(self):

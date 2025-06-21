@@ -47,3 +47,14 @@ print(c)  # Output: 'cherry'
 a, *b = packed_tuple  # 'a' gets the first item, 'b' gets the rest
 print(a)  # Output: 'apple' 
 print(b)  # Output: ['banana', 'cherry']
+
+# joining tuples
+tuple6 = ("apple", "banana", "cherry")  
+tuple7 = ("orange", "kiwi", "melon")
+tuple8 = tuple6 + tuple7  # Concatenate tuples
+print(tuple8)  # Output: ('apple', 'banana', 'cherry', 'orange', 'kiwi', 'melon')
+# Repeating tuples
+tuple9 = ("apple", "banana", "cherry")
+tuple10 = tuple9 * 2  # Repeat the tuple twice
+print(tuple10)  # Output: ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
+
